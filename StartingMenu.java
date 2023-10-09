@@ -32,7 +32,7 @@ public class StartingMenu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/nasahackathon/Add_a_heading_1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Add_a_heading_1.png"))); // NOI18N
 
         jButton1.setBackground(new java.awt.Color(48, 61, 144));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
@@ -84,15 +84,15 @@ public class StartingMenu extends javax.swing.JFrame {
         Globals.currentComboBoxOptions.add("Exercising");
         Globals.currentComboBoxOptions.add("Simulations");
         Globals.currentComboBoxOptions.add("Putting on Equipment");
-        Globals.inventory.add(new InventoryObject("Money", 0, "/nasahackathon/money.png"));
+        Globals.inventory.add(new InventoryObject("Money", 0, "/money.png"));
         Globals.links.clear();
-        Globals.links.put("Money", "/nasahackathon/money.png");
-        Globals.links.put("Silica Aerogel", "/nasahackathon/silicaAerogel.png");
-        Globals.links.put("Cyanobacteria", "/nasahackathon/cyanobacteria.png");
-        Globals.links.put("Food Pod", "/nasahackathon/foodPod.png");
-        Globals.links.put("Wooden Plank", "/nasahackathon/woodenPlank.png");
-        Globals.links.put("Concrete Block", "/nasahackathon/concreteBlock.png");
-        Globals.links.put("Aluminum Sheet", "/nasahackathon/aluminumSheet.png");
+        Globals.links.put("Money", "/money.png");
+        Globals.links.put("Silica Aerogel", "/silicaAerogel.png");
+        Globals.links.put("Cyanobacteria", "/cyanobacteria.png");
+        Globals.links.put("Food Pod", "/foodPod.png");
+        Globals.links.put("Wooden Plank", "/woodenPlank.png");
+        Globals.links.put("Concrete Block", "/concreteBlock.png");
+        Globals.links.put("Aluminum Sheet", "/aluminumSheet.png");
         new Instructions().runInstructions(random);
     }//GEN-LAST:event_jButton1ActionPerformed
 
